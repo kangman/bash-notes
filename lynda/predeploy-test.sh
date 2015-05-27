@@ -60,9 +60,9 @@ fi
 if [[ $3 = withvars ]]; then
 	echo "placeholder for logic to also deploy the variations. WIP."
   case $1 in
-    stage ) echo "this is for stage"
+    stage ) echo "this is for stage $4"
       ;;
-    prod ) echo "this is for prod"
+    prod ) echo "this is for prod $4"
       ;;
   esac
 fi
